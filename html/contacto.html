@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../images/logoperromirando.jpg" alt="logo - header" height="60px">
+        </div>
+        <nav>
+            <ul>
+                <li class="">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="">
+                    <a href="instalaciones.html">Instalaciones</a>
+                </li>
+                <li class="">
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li class="">
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="">
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class=mainHome>
+        <h1 class="tituloGeneral">Contacto</h1>
+        <section class="formContactoContainer">
+            <form action="form.php" method=POST class="formContacto p-3">
+                <label for="nombre" class="d-block text-white mt-4">Nombre y apellido (*)</label>
+                <input type="text" name="nombre" id="nombre" class="d-block form-control inputContacto w-100"
+                    placeholder="Facu baro" required>
+
+                <label for="mail" class="d-block text-white mt-4">E-mail(*)</label>
+                <input type="email" placeholder="abc@mail.com" name="mail" id="" class="d-block form-control w-100"
+                    required>
+
+                <label for="tel" class="d-block text-white mt-4">Telefono (*)</label>
+                <input type="number" placeholder="123456789" name="tel" id="" class="d-block form-control w-100"
+                    required>
+
+                <label for="text" class="d-block text-white mt-4">Dejanos un mensaje</label>
+                <textarea name="" id="" class="d-block form-control w-100"></textarea>
+
+                <input type="submit" value="Enviar" class="btn btn-danger mt-4">
+            </form>
+        </section>
+    </main>
+    <footer class="">
+        <div>
+            <img src="../images/logoperromirando.jpg" alt="" class="">
+        </div>
+        <ul class="">
+            <li class="tittle-footer">Ubicación</li>
+            <li class="text-footer"><a href="https://goo.gl/maps/Qa6frXx24bZxDVni6">Ameghino<br/>Quilmes, Buenos Aires</a></li>
+        </ul>
+        <ul class="">
+            <li class="tittle-footer">Redes Sociales</li>
+            <li><a href="https://www.facebook.com/profile.php?id=100075817793548"><img src="../images/facebook.svg" alt="facebook" ></a></li>
+            <li><a href="https://www.instagram.com/consecionaria_multimarca_/"><img src="../images/instagram.svg" alt="instagram" ></a></li>
+            <li><a href="#"><img src="../images/whatsapp.wine" alt="whatsapp"></a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
